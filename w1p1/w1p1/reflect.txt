@@ -1,0 +1,10 @@
+ * Name: Dhruv Bipinbhai Patel
+ * Student ID: 142572197
+ * Workshop: reflection workshop 1
+ * Seneca email: dbpatel31@myseneca.ca
+ * Section: NEE
+
+While working on this workshop, I learnt how to use the extern keyword in order to allow a variable to exist in another translation unit but be looked up in another as well as make that variable last a lifetime of the program. 
+Internal linkage refers to only in scope of translation unit where as external linkage refers to things that exist beyond one translation unit. For example, In this code we used g_sysClock. 
+Static variables reduced the amount of space utilized by the program. It is like a global variable and is available to all methods.
+Upgrading the Event class in my program was quiet of a challenge. I added another copy constructor and an assignment operator. Also, I set the description variable to null before assigning characters to it, so there is no memory leak in during run time. 
